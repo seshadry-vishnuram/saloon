@@ -1,0 +1,186 @@
+body {
+  background: red;
+}
+
+.container .header-portion {
+  background: url("../assest/background.png");
+  background-size: cover;
+  float: left;
+  width: 100%;
+  padding-top: 15%;
+}
+
+.container .header-portion .site-logo-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container .header-portion .site-logo-cover img {
+  width: 22%;
+}
+
+.container .header-portion .site-tile {
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 44px;
+  margin-bottom: 25px;
+}
+
+.container .header-portion .search-box-cover {
+  float: left;
+  width: 100%;
+  background: #fff;
+}
+
+.container .header-portion .search-box-cover .dropdown {
+  float: left;
+  min-width: 8%;
+}
+
+.container .header-portion .search-box-cover .dropdown .btn-primary {
+  color: #000;
+  background-color: #fff;
+  border: none;
+}
+
+.container .header-portion .search-box-cover .stylish-input-group .input-group-addon {
+  background: #13686D;
+  border: none;
+}
+
+.container .header-portion .search-box-cover .stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border: none;
+}
+
+.container .header-portion .search-box-cover .stylish-input-group button {
+  border: 0;
+  background: transparent;
+}
+
+.container .header-portion .list-para {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.container .header-portion .mobile-image-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container .header-portion .mobile-image-cover img {
+  width: 20%;
+}
+
+.container .how-it-work-cover {
+  float: left;
+  width: 100%;
+}
+
+.container .how-it-work-cover .how-it-title {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.container .how-it-work-cover .coln {
+  float: left;
+  width: 50%;
+  min-height: 220px;
+}
+
+.container .how-it-work-cover .coln:nth-child(even) {
+  border-right: 1px solid #2FAEC1;
+}
+
+.container .how-it-work-cover .download-the-app {
+  float: left;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 25px 20px;
+  text-align: center;
+  border-left: none;
+}
+
+.container .how-it-work-cover .download-the-app img {
+  width: 7%;
+}
+
+.container .how-it-work-cover .download-the-app .coln-title {
+  font-weight: bold;
+}
+
+.container .thats-it-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.container .our-recom-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.container .our-recom-cover h5 {
+  margin-bottom: 50px;
+}
+
+.container .our-recom-cover .recom-results-cover {
+  float: left;
+  text-align: left;
+  width: 30%;
+}
+
+.container .our-recom-cover .recom-results-cover .result-img {
+  float: left;
+  margin-right: 20px;
+}
+
+.container .our-recom-cover .recom-results-cover .result-img img {
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts {
+  float: left;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .star-review-cover img {
+  width: 9%;
+}
+
+.container .our-recom-cover .recom-results-cover .button-cover {
+  float: left;
+  width: 100%;
+  border: 1px solid #2FAEC1;
+}
+
+.container .our-recom-cover .recom-results-cover .button-cover p {
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 5px;
+  color: #2FAEC1;
+}
+
+.container .our-recom-cover .recom-results-cover .button-cover button {
+  border: none;
+  background: #2FAEC1;
+  color: #fff;
+  float: right;
+  padding: 5px 0;
+  width: 55%;
+}
