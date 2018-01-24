@@ -7,7 +7,7 @@ body{
         background-size: cover;
         float: left;
         width: 100%;
-        padding-top: 15%;
+        padding-top: 11%;
         .site-logo-cover {
             float: left;
             width: 100%;
@@ -31,13 +31,18 @@ body{
             float: left;
             width: 100%;
             background: #fff;
+            border-radius: 40px;
             .dropdown{
                 float: left;
-                min-width: 8%;
+                min-width: 20%;
+                min-height: 44px;
+                border-right: 1px solid #ccc;
                 .btn-primary {
                     color: #000;
                     background-color: #fff;
-                    border: none;                   
+                    border: none;
+                    margin: 11px 0 0 11px;
+                    padding: 0;                   
                     
                 }
             }
@@ -49,6 +54,7 @@ body{
                 border-right:0; 
                 box-shadow:0 0 0; 
                 border:none;
+                padding: 10px 0 0 50px;
             }
             .stylish-input-group button{
                 border:0;
@@ -67,9 +73,13 @@ body{
             width: 100%;
             text-align: center;            
             margin-top: 30px;
+            position: relative;
+            min-height: 390px;
             
             img{
                 width:20%;
+                left: 40%;
+                position: absolute;
             }
         }
     }
@@ -77,6 +87,7 @@ body{
     .how-it-work-cover {
         float: left;
         width: 100%;
+        margin-top: 150px;
         .how-it-title {
             float: left;
             width: 100%;
@@ -87,10 +98,29 @@ body{
         .coln{
             float: left;
             width: 50%;
-            min-height: 220px;
+            min-height: 178px;
         }
         .coln:nth-child(even){
             border-right:1px solid #2FAEC1;
+        }
+        .coln-2, .coln-1{
+            min-height: 300px;
+        }
+        .coln-5.coln, .coln-6.coln {
+            min-height: 225px !important;
+        }
+        .coln-2.coln .numbr {
+            margin-left: -25px;
+            background-color: #fff;
+        }
+        .coln-4.coln .numbr {
+            margin-top: -72px;
+            margin-left: -25px;
+            background: #fff;
+        }
+        .coln-6.coln .numbr {
+            margin-left: -25px;
+            margin-top: 0;
         }
         .download-the-app {
             float: left;
@@ -118,13 +148,18 @@ body{
         float: left;
         width: 100%;
         text-align: center;
+        background: #FBFBFB;
         h5 {
             margin-bottom: 50px;
         }
         .recom-results-cover {
             float: left;
             text-align: left;
-            width: 30%;
+            background: #fff;
+            width: 32%;
+            border: 1px solid #ccc;
+            margin-right: 15px;
+            padding: 5px;
             .result-img {
                 float: left;
                 margin-right: 20px;
@@ -163,6 +198,15 @@ body{
             }
         }
     }
-    
+   //get the app
+   .get-app-cover {
+       background: #13686D;
+       float: left;
+       width:100%;
+       text-align: center;
+       color: #fff;
+       padding: 30px 0;
+       margin: 40px 0;
+   }
 
 }

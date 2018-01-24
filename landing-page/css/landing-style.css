@@ -7,7 +7,7 @@ body {
   background-size: cover;
   float: left;
   width: 100%;
-  padding-top: 15%;
+  padding-top: 11%;
 }
 
 .container .header-portion .site-logo-cover {
@@ -34,17 +34,22 @@ body {
   float: left;
   width: 100%;
   background: #fff;
+  border-radius: 40px;
 }
 
 .container .header-portion .search-box-cover .dropdown {
   float: left;
-  min-width: 8%;
+  min-width: 20%;
+  min-height: 44px;
+  border-right: 1px solid #ccc;
 }
 
 .container .header-portion .search-box-cover .dropdown .btn-primary {
   color: #000;
   background-color: #fff;
   border: none;
+  margin: 11px 0 0 11px;
+  padding: 0;
 }
 
 .container .header-portion .search-box-cover .stylish-input-group .input-group-addon {
@@ -56,6 +61,7 @@ body {
   border-right: 0;
   box-shadow: 0 0 0;
   border: none;
+  padding: 10px 0 0 50px;
 }
 
 .container .header-portion .search-box-cover .stylish-input-group button {
@@ -76,15 +82,20 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  position: relative;
+  min-height: 390px;
 }
 
 .container .header-portion .mobile-image-cover img {
   width: 20%;
+  left: 40%;
+  position: absolute;
 }
 
 .container .how-it-work-cover {
   float: left;
   width: 100%;
+  margin-top: 150px;
 }
 
 .container .how-it-work-cover .how-it-title {
@@ -98,11 +109,35 @@ body {
 .container .how-it-work-cover .coln {
   float: left;
   width: 50%;
-  min-height: 220px;
+  min-height: 178px;
 }
 
 .container .how-it-work-cover .coln:nth-child(even) {
   border-right: 1px solid #2FAEC1;
+}
+
+.container .how-it-work-cover .coln-2, .container .how-it-work-cover .coln-1 {
+  min-height: 300px;
+}
+
+.container .how-it-work-cover .coln-5.coln, .container .how-it-work-cover .coln-6.coln {
+  min-height: 225px !important;
+}
+
+.container .how-it-work-cover .coln-2.coln .numbr {
+  margin-left: -25px;
+  background-color: #fff;
+}
+
+.container .how-it-work-cover .coln-4.coln .numbr {
+  margin-top: -72px;
+  margin-left: -25px;
+  background: #fff;
+}
+
+.container .how-it-work-cover .coln-6.coln .numbr {
+  margin-left: -25px;
+  margin-top: 0;
 }
 
 .container .how-it-work-cover .download-the-app {
@@ -132,6 +167,7 @@ body {
   float: left;
   width: 100%;
   text-align: center;
+  background: #FBFBFB;
 }
 
 .container .our-recom-cover h5 {
@@ -141,7 +177,11 @@ body {
 .container .our-recom-cover .recom-results-cover {
   float: left;
   text-align: left;
-  width: 30%;
+  background: #fff;
+  width: 32%;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 5px;
 }
 
 .container .our-recom-cover .recom-results-cover .result-img {
@@ -183,4 +223,14 @@ body {
   float: right;
   padding: 5px 0;
   width: 55%;
+}
+
+.container .get-app-cover {
+  background: #13686D;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 30px 0;
+  margin: 40px 0;
 }
