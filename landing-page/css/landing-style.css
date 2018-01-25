@@ -32,9 +32,14 @@ body {
 
 .container .header-portion .search-box-cover {
   float: left;
-  width: 100%;
+  width: 86%;
   background: #fff;
   border-radius: 40px;
+}
+
+.container .header-portion .search-box-cover .input-group {
+  float: left;
+  width: 80%;
 }
 
 .container .header-portion .search-box-cover .dropdown {
@@ -55,6 +60,8 @@ body {
 .container .header-portion .search-box-cover .stylish-input-group .input-group-addon {
   background: #13686D;
   border: none;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .container .header-portion .search-box-cover .stylish-input-group .form-control {
@@ -116,6 +123,10 @@ body {
   border-right: 1px solid #2FAEC1;
 }
 
+.container .how-it-work-cover .coln-3.coln {
+  border-left: 1px solid #ccc;
+}
+
 .container .how-it-work-cover .coln-2, .container .how-it-work-cover .coln-1 {
   min-height: 300px;
 }
@@ -168,6 +179,7 @@ body {
   width: 100%;
   text-align: center;
   background: #FBFBFB;
+  margin-top: 50px;
 }
 
 .container .our-recom-cover h5 {
@@ -181,12 +193,13 @@ body {
   width: 32%;
   border: 1px solid #ccc;
   margin-right: 15px;
-  padding: 5px;
+  padding: 20px 15px;
 }
 
 .container .our-recom-cover .recom-results-cover .result-img {
   float: left;
   margin-right: 20px;
+  width: 28%;
 }
 
 .container .our-recom-cover .recom-results-cover .result-img img {
@@ -196,10 +209,31 @@ body {
 
 .container .our-recom-cover .recom-results-cover .result-texts {
   float: left;
+  width: 66%;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .address {
+  margin: 0;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .phone-numbr img {
+  width: 6%;
+  margin-right: 20px;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .star-review-cover {
+  float: left;
+  width: 100%;
 }
 
 .container .our-recom-cover .recom-results-cover .result-texts .star-review-cover img {
   width: 9%;
+  float: left;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .star-review-cover .revws-count {
+  float: left;
+  margin-left: 20px;
 }
 
 .container .our-recom-cover .recom-results-cover .button-cover {

@@ -29,9 +29,13 @@ body{
         // search box
         .search-box-cover{
             float: left;
-            width: 100%;
+            width: 86%;
             background: #fff;
             border-radius: 40px;
+            .input-group{
+                float: left;
+                width: 80%;
+            }
             .dropdown{
                 float: left;
                 min-width: 20%;
@@ -49,6 +53,8 @@ body{
             .stylish-input-group .input-group-addon{
                 background: #13686D; 
                 border:none;
+                border-top-right-radius: 40px;
+                border-bottom-right-radius: 40px;
             }
             .stylish-input-group .form-control{
                 border-right:0; 
@@ -103,6 +109,10 @@ body{
         .coln:nth-child(even){
             border-right:1px solid #2FAEC1;
         }
+        .coln-3.coln{
+            
+            border-left: 1px solid #ccc;
+        }
         .coln-2, .coln-1{
             min-height: 300px;
         }
@@ -149,6 +159,7 @@ body{
         width: 100%;
         text-align: center;
         background: #FBFBFB;
+        margin-top:50px;
         h5 {
             margin-bottom: 50px;
         }
@@ -159,10 +170,11 @@ body{
             width: 32%;
             border: 1px solid #ccc;
             margin-right: 15px;
-            padding: 5px;
+            padding: 20px 15px;
             .result-img {
                 float: left;
                 margin-right: 20px;
+                width:28%;
                 img {
                     border-radius: 50px;
                     margin-top: 30px;
@@ -170,8 +182,25 @@ body{
             }
             .result-texts {
                 float: left;
-                .star-review-cover img {
-                    width: 9%;
+                width:66%;
+                .address{
+                    margin:0;
+                }
+                .phone-numbr img{
+                    width: 6%;
+                    margin-right: 20px;
+                }
+                .star-review-cover{
+                    float: left;
+                    width: 100%;
+                    img {
+                        width: 9%;
+                        float: left;
+                    }
+                    .revws-count {
+                        float: left;
+                        margin-left: 20px;
+                    }
                 }
             }
             .button-cover {
